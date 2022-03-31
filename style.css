@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>all</title>
+	<title>Al-Fatah</title>
 	<script src="https://kit.fontawesome.com/f70b73b03d.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -68,14 +68,16 @@
 			background-color: blue
 			color: red;
 		}
+		.A:hover{
+			color: blue;
+			background-color:yellow;
+			padding: 0.5%;
 
 	</style>
 	<div class="div">
-		<div>
-			<marquee behaviour="scroll" direction="left" style="background-color:#E3B7A0!important;padding:1.5vh;" >
+		<marquee behaviour="scroll" direction="left" style="background-color:#E3B7A0!important;padding:1.5vh;" >
 			<span class="span">FREE DILEVERY IS APPLICABLE FOR ORDERS IN ISLAMABAD, LAHORE, FAISALABAD, GUJRAWALA AND SIALKOT.DEAR CUSTOMERS ALL ORDERSPLACED 7:00 PM ONWARD WILL BE DILEVERED NEXT DA. FOR ALL CARD TRANSACTIONS, WE WILL REQUIRE/ASK FOR CNIC OF CARD HOLDER FOR CUSTOMER SECURITY. THANKYOU  </span>
-			</marquee>
-		</div>
+		</marquee>
 		<div id="navbar">
 			<ul>
 				<li><img src="image/fatah.jpg" alt="Error" class="pic"></li>
@@ -89,21 +91,20 @@
 				<li class="font"><i class="fa-solid fa-cart-shopping"></i></li>
 			</ul>
 		</div>
-		<ul>
-			<li class="A"><a href="grocery.html">Grocery</a></li>
-			<li class="A"><a href="electronics.html"> Elecronics</a></li>
-			<li class="A"><a href="men.html"> Men</a></li>
-			<li class="A"><a href="women.html">Women</a></li>
-			<li class="A"><a href="beauty.html">Beauty</a></li>
-			<li class="A"><a href="skin-care.html"> Skin care & Hair</a></li>
-			<li class="A"><a href="perfumes.html"> Perfumes</a></li>
-			<li class="A"><a href="kids.html"> Kids</a></li>
-			<li class="A"><a href="games.html">Toys & Games</a></li>
-			<li class="A"><a href="Bags.html">Bags & Accesories</a></li>
-			<li class="A"><a href="home.html">Home</a></li>
-			<!-- <li style="margin:1% 2% 0% 0%;">Pet Essential</li> -->
-			<!-- <li style="margin:1% 1% 0% 0%;">Fitness & Adventure</li> -->
-		</ul>
+			<ul>
+				<li class="A"><a href="grocery.html">Grocery</a></li>
+				<li class="A"><a href="electronics.html"> Elecronics</a></li>
+				<li class="A"><a href="men.html"> Men</a></li>
+				<li class="A"><a href="women.html">Women</a></li>
+				<li class="A"><a href="beauty.html">Beauty</a></li>
+				<li class="A"><a href="skin-care.html"> Skin care & Hair</a></li>
+				<li class="A"><a href="perfumes.html"> Perfumes</a></li>
+				<li class="A"><a href="kids.html"> Kids</a></li>
+				<li class="A"><a href="games.html">Toys & Games</a></li>
+				<li class="A"><a href="Bags.html">Bags & Accesories</a></li>
+				<li class="A"><a href="home.html">Home</a></li>
+				<li class="A"><a href="pet.html">Pet Essential</a></li>
+			</ul>
 		
 	</div>
 </body>
