@@ -6,11 +6,6 @@
 </head>
 <body>
 	<style>
-
-		.div{
-			margin:0% 3%;
-			background-color:white; 
-		}
 		.span{
 			width: 100%;
 			height: 10vh;
@@ -20,70 +15,74 @@
 		}
 		ul{
 			display: flex;
-			margin: 0%;
-			padding: 0%;
+			padding: 1.5% 5%;
 			list-style: none;
-			/*background-color:#886F6F;*/
-			
-
+			justify-content: center;
 		}
 		
-		.pic{
+		#navbar ul li img{
 			width: 28vh;
 			height: 12vh;
-			margin: 4%;
 		}
-		.search{
+		#navbar ul li input{
 			width: 400%;
-		    margin:9%;
-		    padding: 7%;
-		    margin-left: 10%;
+		    padding: 8%;
 		    border: solid;
 		    border-color: maroon;
 		}
 		.spec{
-			margin:1.75% 0% 5% 42%;
-			/*border:solid;*/
+			margin: 0.75% 0% 5% 42%;
 			font-size:25px;
 			padding: 0.1%;
-			/*background-color: #F7ECDE;*/
 		}
 		.li{
 			margin-left: 5%; 
 			margin-top: 1%;
-			
 		}
 		.font{
 			margin: 3% 0.5% 3% -3%; 
 			font-size: 30px;
 		}
-		.A{
+		.A li{
 			margin:1% 2% 1% 1%;
 		}
 		a{
 			text-decoration: none;
 			color: black;
 		}
-		ul li .A{
-			background-color: blue
-			color: red;
-		}
-		.A:hover{
+		.A li:hover{
 			color: blue;
-			background-color:yellow;
 			padding: 0.5%;
 			font-style: italic;
+			border-bottom: solid;
 		}
+		.DropDown{
+			display: none;
+		}
+		@media screen and (max-width:  600px) {
+ 		 .A {
+		   display: none;
 
-	</style>
-	<div class="div">
-		<marquee behaviour="scroll" direction="left" style="background-color:#E3B7A0!important;padding:1.5vh;" >
-			<span class="span">FREE DILEVERY IS APPLICABLE FOR ORDERS IN ISLAMABAD, LAHORE, FAISALABAD, GUJRAWALA AND SIALKOT.DEAR CUSTOMERS ALL ORDERSPLACED 7:00 PM ONWARD WILL BE DILEVERED NEXT DA. FOR ALL CARD TRANSACTIONS, WE WILL REQUIRE/ASK FOR CNIC OF CARD HOLDER FOR CUSTOMER SECURITY. THANKYOU  </span>
-		</marquee>
+		}
+		  .DropDown{
+	  	display: block;
+	  	background-color: blue;
+		}
+  /*.DropDown:hover {
+  	background-color: red;
+  	display: block;
+	 
+}*/
+
+		.DropDown:hover:.A{
+		    background-color: yellow;
+	    	display: block;
+}
+		</style>
 		<div id="navbar">
 			<ul>
-				<li><img src="image/fatah.jpg" alt="Error" class="pic"></li>
-				<li><input type="text" name="search" placeholder="Find a product" class="search"></li>
+				<li><img src="image/fatah.jpg" alt="Error"></li>
+				<li><input type="text" name="search" placeholder="Find a product"></li>
 				<li class="spec"><i class="fa-solid fa-magnifying-glass"></i> </li>
 				<li class="li"><a href="Whishlist.html">Wishlist</a></li>
 				<li class="font"><i class="fa-solid fa-heart"></i></li>
@@ -93,21 +92,18 @@
 				<li class="font"><i class="fa-solid fa-cart-shopping"></i></li>
 			</ul>
 		</div>
-			<ul>
-				<li class="A"><a href="grocery.html">Grocery</a></li>
-				<li class="A"><a href="electronics.html"> Elecronics</a></li>
-				<li class="A"><a href="men.html"> Men</a></li>
-				<li class="A"><a href="women.html">Women</a></li>
-				<li class="A"><a href="beauty.html">Beauty</a></li>
-				<li class="A"><a href="skin-care.html"> Skin care & Hair</a></li>
-				<li class="A"><a href="perfumes.html"> Perfumes</a></li>
-				<li class="A"><a href="kids.html"> Kids</a></li>
-				<li class="A"><a href="games.html">Toys & Games</a></li>
-				<li class="A"><a href="Bags.html">Bags & Accesories</a></li>
-				<li class="A"><a href="home.html">Home</a></li>
-				<li class="A"><a href="pet.html">Pet Essential</a></li>
-			</ul>
-		
-	</div>
+		<button class="DropDown">Items</button>
+			<ul class="A">
+				<li><a href="grocery.html">Grocery</a></li>
+				<li><a href="electronics.html"> Elecronics</a></li>
+				<li><a href="men.html"> Men</a></li>
+				<li><a href="women.html">Women</a></li>
+				<li><a href="beauty.html">Beauty</a></li>
+				<li><a href="perfumes.html"> Perfumes</a></li>
+				<li><a href="kids.html"> Kids</a></li>
+				<li><a href="games.html">Toys & Games</a></li>
+				<li><a href="Bags.html">Bags & Accesories</a></li>
+				<li><a href="home.html">Home</a></li>
+			</ul>	
 </body>
 </html>
