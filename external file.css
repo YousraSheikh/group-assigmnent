@@ -116,9 +116,10 @@
 			/*padding: 10px;*/
 		}
 		.perfumes div img{
-			width: 100%;
+			width: 90%;
 			height: 40vh;
-			/*border: solid;*/
+			border: solid;
+			border-color: #F1DDBF;
 
 		}
 		.perfumes div span{
@@ -127,17 +128,20 @@
 			justify-content: center; 
 
 		}
-		.Perfumes{
+		/*.Perfumes{
 			width: 100%;
-			/*background-color: yellow;*/
+			background-color: yellow;
 			display: flex;
 			justify-content: center;
 			height: 40vh;
-			/*padding: 10px;*/
+			padding: 10px;
 		}
 		.Perfumes div img{
-			width: 100%;
+			width: 80%;
 			height: 100%
-			/*border: solid;*/
+			border: solid;
+			border-radius: 2%;
 
 		}
+		
+		*/
