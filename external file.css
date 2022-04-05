@@ -50,9 +50,14 @@
 		}
 		.A li:hover{
 			color: blue;
-			padding: 0.5%;
 			font-style: italic;
 			border-bottom: solid;
+			position: relative;
+		}
+		.A li a:hover{
+			color: blue;
+			position: relative;
+
 		}
 		.DropDown{
 			display: none;
