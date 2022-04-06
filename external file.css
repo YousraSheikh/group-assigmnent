@@ -1,4 +1,8 @@
-.span{
+		.div{
+			background-color: #F7F5F2;
+			/* color: #8D8DAA;*/
+		}
+		.span{
 			width: 100%;
 			height: 10vh;
 		}
@@ -108,6 +112,11 @@
 			height: 100%;
 			/*background-color: red;*/
 		}
+		.child2 a{
+			color: blue;
+			text-decoration: underline;
+
+		}
 		h2{
 			text-align: center;
 			font-size: 30px;
@@ -117,7 +126,7 @@
 			/*background-color: yellow;*/
 			display: flex;
 			justify-content: center;
-			height: 50vh;
+			height: 60vh;
 			/*padding: 10px;*/
 		}
 		.perfumes div img{
@@ -133,20 +142,14 @@
 			justify-content: center; 
 
 		}
-		/*.Perfumes{
-			width: 100%;
-			background-color: yellow;
-			display: flex;
-			justify-content: center;
-			height: 40vh;
-			padding: 10px;
+		.perfumes div i {
+			color: gold;
 		}
-		.Perfumes div img{
-			width: 80%;
-			height: 100%
-			border: solid;
-			border-radius: 2%;
-
-		}
+		.footer{
+                background-color: khaki;
+                width: 100%;
+                height: 70%;
+                text-align:center;
+                margin-top: 5%;
+            }
 		
-		*/

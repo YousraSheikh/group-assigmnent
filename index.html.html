@@ -6,6 +6,10 @@
 </head>
 <body>
 	<style>
+		div{
+			background-color: #F7F5F2;
+			 color: #8D8DAA;
+		}
 		.span{
 			width: 100%;
 			height: 10vh;
@@ -67,6 +71,255 @@
 		.DropDown{
 			display: none;
 		}
+		 .slider {
+            background-color: red;
+            height: 70%;
+            width: 1100px;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            top: 50%;
+            margin-top: 150px;
+            position: absolute;
+            animation: slider 25s infinite linear;
+
+        }
+
+        @keyframes slider {
+            0% {
+                background-image: url('image/slider-1.jpg');
+            }
+
+            25% {
+                background-image: url('image/slider-2.jpg');
+            }
+
+            50% {
+                background-image: url('image/slider-3.jpg');
+            }
+
+            75% {
+                background-image: url('image/slider-4.jpg');
+            }
+
+            100% {
+                background-image: url('image/slider-7.jpg');
+            }
+
+        }
+        iframe{margin-top: 40%;
+        width: 100%}
+        /*.footer{
+                background-color: khaki;
+                width: 100%;
+                height: 70%;
+                text-align:center;
+                margin-top: 5%;
+            }*/
+            .foot1 {
+            display: flex;
+            flex-direction: column;
+            margin-right: 65%;
+            margin-left: 5%;
+            width: 15%;
+
+        }
+
+        .footermain {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-top: -13%;
+            margin-left: 23%;
+            margin-right: 10%;
+            color: gray;
+        }
+
+        .footermain ul {
+            list-style: none;
+
+        }
+
+        .foot2 {
+            display: flex;
+            flex-direction: column;
+            padding-right: 5%;
+            padding-top: 3%;
+            padding-bottom: 3%;
+
+        }
+
+        .foot3 {
+            padding-right: 5%;
+            padding-top: 3%;
+            padding-bottom: 3%;
+        }
+
+        .foot4 {
+            padding-right: 5%;
+            padding-top: 3%;
+            padding-bottom: 3%;
+        }
+
+        .foot5 {
+            padding-right: 5%;
+            padding-top: 3%;
+            padding-bottom: 3%;
+        }
+
+        .foot6 {
+            color: gray;
+            margin-left: 5%;
+            margin-right: 70%;
+        }
+
+        .foot7 {
+            color: gray;
+            margin-left: 5%;
+        }
+        .footermain1{
+            display:flex;
+            justify-content:space-between;
+            text-align: center;   
+        }
+        .footerA{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            padding-right: 2%;
+            padding-left: 2%;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            border-right:solid gray;
+        }
+        .footerB{
+            justify-content: center;
+            padding-right: 2%;
+            padding-left:3%;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            border-right:solid gray;
+        }
+        .footerC{
+            
+            justify-content: center;
+            padding-right: 2%;
+            padding-left:3%;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            border-right:solid gray;
+        }
+        .footerD{
+            
+            justify-content: center;
+            padding-right: 2%;
+            padding-left:3%;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            border-right:solid gray;
+        }
+           /* footer*/
+           /*.div1 {
+            display: flex;
+            flex-direction: column;
+            margin-right: 65%;
+            margin-left: 5%;
+            width: 15%;
+
+        }
+
+        .main {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-top: -13%;
+            margin-left: 23%;
+            margin-right: 10%;
+            color: gray;
+        }
+
+        .main ul {
+            list-style: none;
+
+        }
+
+        .div2 {
+            display: flex;
+            flex-direction: column;
+            padding-right: 5%;
+            padding-top: 3%;
+            padding-bottom: 3%;
+
+        }
+
+        .div3 {
+            padding-right: 5%;
+            padding-top: 3%;
+            padding-bottom: 3%;
+        }
+
+        .div4 {
+            padding-right: 5%;
+            padding-top: 3%;
+            padding-bottom: 3%;
+        }
+
+        .div5 {
+            padding-right: 5%;
+            padding-top: 3%;
+            padding-bottom: 3%;
+        }
+
+        .div6 {
+            color: gray;
+            margin-left: 5%;
+            margin-right: 70%;
+        }
+
+        .div7 {
+            color: gray;
+            margin-left: 5%;
+        }
+        .main2{
+            display:flex;
+            justify-content:space-between;
+            text-align: center;   
+        }
+        .divA{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            padding-right: 2%;
+            padding-left: 2%;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            border-right:solid gray;
+        }
+        .divB{
+            justify-content: center;
+            padding-right: 2%;
+            padding-left:3%;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            border-right:solid gray;
+        }
+        .divC{
+            
+            justify-content: center;
+            padding-right: 2%;
+            padding-left:3%;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            border-right:solid gray;
+        }
+        .divD{
+            
+            justify-content: center;
+            padding-right: 2%;
+            padding-left:3%;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            border-right:solid gray;
+        }*/
 		@media screen and (max-width:  600px) {
  		 .A {
 		   display: none;
@@ -87,6 +340,7 @@
 	    	display: block;
 }
 		</style>
+		<div>
 		<div id="navbar">
 			<ul>
 				<li><img src="image/fatah.jpg" alt="Error"></li>
@@ -111,7 +365,233 @@
 				<li><a href="kids.html"> Kids</a></li>
 				<li><a href="games.html">Toys & Games</a></li>
 				<li><a href="Bags.html">Bags & Accesories</a></li>
-				<li><a href="home.html">Home</a></li>
+				<li><a href="index.html.html">Home</a></li>
 			</ul>	
+			<div class="slider">
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13620.444523956694!2d73.10826486977538!3d31.41106410000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39226873d79f9acd%3A0xbf2cac9d5b008241!2sAl%20Fatah%20Store!5e0!3m2!1sen!2s!4v1649195032153!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <footer>
+        <div class="footermain1">
+            <div class="footerA">
+                <h4>SIGN UP FOR OUR NEWSELLER</h4>
+            </div>
+            <div class="footerB">
+                <center> <h4>FIND STORIES</h4> </center>
+            </div>
+            <div class="footerC">
+                <h4>TRACK YOUR ORDER</h4>
+            </div>
+            <div class="footerD">
+                <h4>GET IN TOUCH</h4>
+            </div>
+        </div>
+        <div class="foot1">
+            <img src="alfatah2.png" padding="3%">
+            <button id="btn" style="background-color: black; color: white;">Get it on<br>Google play</button>
+            <button id="btn" style="background-color: black; color: white;">download on the</button>
+        </div>
+        <div class="footermain">
+            <style>
+                .foot2>ul>li:hover {
+                    border-bottom: 1px solid black;
+                }
+            </style>
+            <div class="foot2">
+                <ul>
+                    <li><b>Customer Service <i class="fa-brands fa-facebook-f"></i></b></li>
+                    <li>My Account</li>
+                    <li>FAQS</li>
+                    <li>Cash On Delivery Service</li>
+                    <li>Contact Us</li>
+                    <li>Store Lacator</li>
+                </ul>
+            </div>
+            <style>
+            .div3>ul>li:hover {
+                    border-bottom: 1px solid black;
+                }
+            </style>
+            <div class="foot3">
+                <ul>
+                    <li><b>Help & Information</b></li>
+                    <li>About Us</li>
+                    <li>Terms & Conditions</li>
+                    <li>Shopping & Exchange policy</li>
+                    <li>Privacy Policy</li>
+                    <li>Payment Information</li>
+                    <li>Credit/Debit Card Policy</li>
+                </ul>
+            </div>
+            <style>
+                .foot4>ul>li:hover {
+                    border-bottom: 1px solid black;
+                }
+            </style>
+            <div class="foot4">
+                <ul>
+                    <li><b>Quick Links</b></li>
+                    <li>Home</li>
+                    <li>Shope Now</li>
+                    <li>Cart</li>
+                    <li>jobs</li>
+                </ul>
+            </div>
+            <style>
+                .foot5>ul>li:hover {
+                    border-bottom: 1px solid black;
+                }
+            </style>
+            <div class="foot5">
+                <ul>
+                    <li><b>Follow us on:</b></li>
+                    <li><i class="fa-brands fa-facebook-f"></i>Facebook</li>
+                    <li>Instagram</li>
+                    <li>You tube</li>
+                </ul>
+            </div>
+        </div>
+        <div class="foot6">
+            <p><b>Address:</b><br>
+                Al-Fatah Head Office, 52B, Block E1<br>
+                Adjacent Shapes Gym, Gulberg 3, Lahore,<br>
+                Pakistan
+                <br>
+                <b>For Queries and Complaints</b>::042-
+                <br>
+                32307777( 9:00AM TO 8:00PM)
+                <br>
+                <b>Watsapp message only: 0311-1555222</b>
+                <br>
+                (9:00AM TO 8:00AM)
+                <br>
+                <b>Email:</b>
+                info@alfatah.pk
+            </p>
+        </div>
+        <div class="foot7">
+            <h6>
+                Copyright © 2021 Al-Fatah (legal entity of Zubaida Associates) | All Rights Reserved. Powered By Hive
+                Metrics
+            </h6>
+        </div>
+    </footer>
+        <!--  <footer>
+        <div class="main2">
+            <div class="divA">
+                <h4>SIGN UP FOR OUR NEWSELLER</h4>
+            </div>
+            <div class="divB">
+                <center> <h4>FIND STORIES</h4> </center>
+            </div>
+            <div class="divC">
+                <h4>TRACK YOUR ORDER</h4>
+            </div>
+            <div class="divD">
+                <h4>GET IN TOUCH</h4>
+            </div>
+        </div>
+        <div class="div1">
+            <img src="alfatah2.png" padding="3%">
+            <button id="btn" style="background-color: black; color: white;">Get it on<br>Google play</button>
+            <button id="btn" style="background-color: black; color: white;">download on the</button>
+        </div>
+        <div class="main">
+            <style>
+                .div2>ul>li:hover {
+                    border-bottom: 1px solid black;
+                }
+            </style>
+            <div class="div2">
+                <ul>
+                    <li><b>Customer Service <i class="fa-brands fa-facebook-f"></i></b></li>
+                    <li>My Account</li>
+                    <li>FAQS</li>
+                    <li>Cash On Delivery Service</li>
+                    <li>Contact Us</li>
+                    <li>Store Lacator</li>
+                </ul>
+            </div>
+            <style>
+            .div3>ul>li:hover {
+                    border-bottom: 1px solid black;
+                }
+            </style>
+            <div class="div3">
+                <ul>
+                    <li><b>Help & Information</b></li>
+                    <li>About Us</li>
+                    <li>Terms & Conditions</li>
+                    <li>Shopping & Exchange policy</li>
+                    <li>Privacy Policy</li>
+                    <li>Payment Information</li>
+                    <li>Credit/Debit Card Policy</li>
+                </ul>
+            </div>
+            <style>
+                .div4>ul>li:hover {
+                    border-bottom: 1px solid black;
+                }
+            </style>
+            <div class="div4">
+                <ul>
+                    <li><b>Quick Links</b></li>
+                    <li>Home</li>
+                    <li>Shope Now</li>
+                    <li>Cart</li>
+                    <li>jobs</li>
+                </ul>
+            </div>
+            <style>
+                .div5>ul>li:hover {
+                    border-bottom: 1px solid black;
+                }
+            </style>
+            <div class="div5">
+                <ul>
+                    <li><b>Follow us on:</b></li>
+                    <li><i class="fa-brands fa-facebook-f"></i>Facebook</li>
+                    <li>Instagram</li>
+                    <li>You tube</li>
+                </ul>
+            </div>
+        </div>
+        <div class="div6">
+            <p><b>Address:</b><br>
+                Al-Fatah Head Office, 52B, Block E1<br>
+                Adjacent Shapes Gym, Gulberg 3, Lahore,<br>
+                Pakistan
+                <br>
+                <b>For Queries and Complaints</b>::042-
+                <br>
+                32307777( 9:00AM TO 8:00PM)
+                <br>
+                <b>Watsapp message only: 0311-1555222</b>
+                <br>
+                (9:00AM TO 8:00AM)
+                <br>
+                <b>Email:</b>
+                info@alfatah.pk
+            </p>
+        </div>
+        <div class="div7">
+            <h6>
+                Copyright © 2021 Al-Fatah (legal entity of Zubaida Associates) | All Rights Reserved. Powered By Hive
+                Metrics
+            </h6>
+        </div>
+    </footer>
+
+        --><div class="footer">
+            <p>Vist us for more info<br>Contact us for more info at:03**-*******</p>
+            <p>For more queries and details vist us at<button><a href="https://web.facebook.com/alfatahpk/?_rdc=1&_rdr">Facebook</a></button></p>
+            <pre>Address:
+              Al-Fatah Head Office, 52B, Block E1, Adjacent Shapes Gym, Gulberg 3, Lahore, Pakistan
+              For Queries and Complaints: : 042-32307777 ( 9:00 AM TO 8:00 PM)
+              Whatsapp message only: 0311-1555222 ( 9:00 AM TO 8:00 PM)
+              Email: info@alfatah.pk
+              </pre>
+  
+      </div>
+		</div>
 </body>
 </html>
